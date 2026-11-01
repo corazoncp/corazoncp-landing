@@ -22,7 +22,7 @@ Prospective clients frequently experience the overwhelm, chronic stress, anxiety
 
 ## 2. Intended Audience & Core Value Proposition
 
-- **Target Audience:** Adults aged 25–40 (Millennials / mature young adults) in Cali, Colombia (and virtually across Hispanic/Anglophone markets) experiencing the "choque con el piloto automático"—chronic workplace stress, nervous system fatigue, insomnia, and existential emptiness.
+- **Target Audience:** Adults aged 25–40 (Millennials / mature young adults) in Valledupar, Colombia (and virtually across Hispanic/Anglophone markets) experiencing the "choque con el piloto automático"—chronic workplace stress, nervous system fatigue, insomnia, and existential emptiness.
 - **Client Paradigm:** **"ANIMADOS"**, not passive patients. The ecosystem empowers individuals to assume active responsibility for their healing and sovereignty.
 - **Core Proposition:** Somatic cranial and body touch (Barras de Access®, Procesos de Cuerpo) paired with conscious mentoring and Oidaterapia to dissolve limiting beliefs, restore vitality, and open the heart.
 - **Slogan:**
@@ -68,12 +68,12 @@ Prospective clients frequently experience the overwhelm, chronic stress, anxiety
 ### Section 04: Servicios & Acompañamiento (Outcome-First Offerings)
 *Mandatory Copy Rule:* Lead with the **tangible impact / problem addressed** (e.g. stress relief, insomnia, physical exhaustion, mental noise), followed by a brief, accessible description of the physical session experience:
 
-1. **Barras de Access® (Presencial — Cali / Barrio Vipasa o a domicilio):**
+1. **Barras de Access® (Presencial — Valledupar o a domicilio):**
    - *Headline / Impact:* Calma mental profunda y liberación de estrés acumulado.
    - *Experience:* 32 toques suaves en puntos específicos de la cabeza para disipar la sobrecarga mental y resetear patrones limitantes sin esfuerzo.
    - *Duration Note:* 45 min – 1 hr.
    - *Card CTA:* `[ Consultar por Barras ]` $\rightarrow$ pre-filled WhatsApp text.
-2. **Procesos de Cuerpo (Presencial — Cali / Barrio Vipasa o a domicilio):**
+2. **Procesos de Cuerpo (Presencial — Valledupar o a domicilio):**
    - *Headline / Impact:* Vitalidad somática, descanso y reconciliación corporal.
    - *Experience:* Imposición de manos suave y energética que ayuda al cuerpo a liberar memorias de trauma, tensión física y recuperar su flujo natural.
    - *Duration Note:* 35 min – 50 min.
@@ -95,9 +95,10 @@ Prospective clients frequently experience the overwhelm, chronic stress, anxiety
 - Direct channels:
   - **WhatsApp Business Directo:** `+57 321 542 8972` (`https://wa.me/573215428972`)
   - **Email:** `contactocorazoncp@gmail.com`
-  - **Instagram:** `@elcorazoncomoportal`
-  - **YouTube:** Canal oficial El Corazón como Portal
-  - **Ubicación:** Cali, Colombia (Barrio Vipasa y atención a domicilio)
+  - **Instagram:** `https://www.instagram.com/elcorazoncomoportal` (`@elcorazoncomoportal`)
+  - **YouTube:** `https://www.youtube.com/@Elcorazóncomoportal` (`@Elcorazóncomoportal`)
+  - **X (Twitter):** `https://x.com/Elcorazoncp` (`@Elcorazoncp`)
+  - **Dirección & Ubicación:** Calle 7 #19B-88 Apto 102, Valledupar, Colombia, 200005 (atención presencial y a domicilio)
 - **Floating WhatsApp Anchor:** Persistent/floating action button allowing instant jump or direct click to chat.
 
 ---
