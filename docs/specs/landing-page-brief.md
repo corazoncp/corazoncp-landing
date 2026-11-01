@@ -56,7 +56,7 @@ Prospective clients frequently experience the overwhelm, chronic stress, anxiety
 - **Visuals:** Warm sand/cream background, Azu's grounding portrait, emerald green accent.
 - **Headline (Slogan):** *"Sal del automático. Abre tu corazón, recupera tu soberanía."*
 - **Supporting Narrative:** Brief, tangible explanation of how Azu accompanies individuals to restore nervous system balance, release mental noise, and reconnect with inner vitality.
-- **Primary CTA:** `[ Conversar por WhatsApp ]` $\rightarrow$ triggers `https://wa.me/573123907177?text=Hola%20Azu,%20visité%20tu%20página%20y%20me%20gustaría%20conversar%20sobre%20tus%20sesiones.`
+- **Primary CTA:** `[ Conversar por WhatsApp ]` $\rightarrow$ triggers `https://wa.me/573215428972?text=Hola%20Azu,%20visité%20tu%20página%20y%20me%20gustaría%20conversar%20sobre%20tus%20sesiones.`
 
 ### Section 03: Acerca de Azu (Story & Approach)
 - **Content Narrative (from Azu's verified text):**
@@ -93,7 +93,7 @@ Prospective clients frequently experience the overwhelm, chronic stress, anxiety
 
 ### Section 06: Contacto, Redes & Cierre
 - Direct channels:
-  - **WhatsApp Directo:** `+57 312 3907177` / `+57 321 542 8972`
+  - **WhatsApp Business Directo:** `+57 321 542 8972` (`https://wa.me/573215428972`)
   - **Email:** `contactocorazoncp@gmail.com`
   - **Instagram:** `@elcorazoncomoportal`
   - **YouTube:** Canal oficial El Corazón como Portal
