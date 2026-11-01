@@ -54,33 +54,40 @@ Prospective clients frequently experience the overwhelm, chronic stress, anxiety
 - **Navigation Links:** Smooth scroll anchors to `Servicios`, `Acerca de Azu`, `Filosofía`, and `Contacto`.
 - **Constraint:** Zero login buttons or customer portal placeholders.
 
-### Section 02: Hero — Identity, Outcome & Immediate Action
+### Section 02: Hero — Identity, Problem Identification & Immediate Action
 - **Visuals:** Warm sand/cream background, Azu's grounding portrait, emerald green accent.
 - **Headline (Slogan):** *"Sal del automático. Abre tu corazón, recupera tu soberanía."*
-- **Supporting Narrative:** Brief, tangible explanation of how Azu accompanies individuals to restore nervous system balance, release mental noise, and reconnect with inner vitality.
+- **The "Esto es lo que necesito" Identification Rule:** Per Azu's explicit guidance, this section is where a visitor in pain must see their current struggle reflected so they instantly recognize: *"esto que me ofrece suena como lo que YO NECESITO"*.
+- **Supporting Narrative:** Directly addresses chronic overwhelm, mental chatter, nervous system fatigue, and the quiet ache of living in autopilot. Explains how Azu accompanies individuals to ground their body, quiet the mind, and awaken their own inner compass.
 - **Primary CTA:** `[ Conversar por WhatsApp ]` $\rightarrow$ triggers `https://wa.me/573215428972?text=Hola%20Azu,%20visité%20tu%20página%20y%20me%20gustaría%20conversar%20sobre%20tus%20sesiones.`
 
-### Section 03: Servicios & Acompañamiento (Outcome-First Offerings)
+### Section 03: Servicios & Acompañamiento (Outcome-First & Grounded Experience)
 *Placement Rule:* Placed **before** "Acerca de Azu" per Azu's explicit request (*"creo que pensándolo bien, me gustaría primero que apareciesen los servicios y debajo sí el quién es Azu"*).
-*Copy Rule:* Lead with the **tangible impact / problem addressed** (e.g. stress relief, insomnia, physical exhaustion, mental noise), followed by a brief, accessible description of the physical session experience.
 
+*Copy Architecture: Impact First, Physical Experience Second (Azu Directive):*
+Azu notes that unfamiliar therapy names mean nothing to someone struggling with real symptoms (*"si yo nunca he leído sobre el kundalini yoga yo pa qué voy a querer eso en mi vida, puede que ni sepa que es lo que necesito para ej. 'el insomnio que sufro hoy día y desde hace años'"*). Therefore, copy must strictly avoid abstract jargon (e.g. leading with "32 puntos en la cabeza") and follow a two-part anatomy:
+1. **The Primary Hook (The Relief / How I Can Help You):** The immediate real-world effect (stress reset, chronic insomnia relief, emotional unburdening, physical ease).
+2. **The Grounded Experience (What Actually Happens in the Session):** A gentle, reassuring, non-intimidating description of what the visitor physically experiences during the session.
+
+#### Curated Service Cards:
 1. **Barras de Access® (Presencial — Valledupar o a domicilio):**
-   - *Headline / Impact:* Calma mental profunda y liberación de estrés acumulado.
-   - *Experience:* 32 toques suaves en puntos específicos de la cabeza para disipar la sobrecarga mental y resetear patrones limitantes sin esfuerzo.
+   - *Primary Hook (Impact & Relief):* Ideal para restablecer el balance frente al estrés crónico, la sobrecarga mental y el agotamiento. Te ayuda a disipar el ruido interno y soltar pensamientos repetitivos para volver a sentir espacio y ligereza.
+   - *Grounded Experience (What Happens):* Te recuestas cómodamente en una camilla para recibir una sesión donde mis manos tocan suavemente puntos específicos en tu cabeza; un proceso sutil, profundamente relajante y no invasivo mientras tu cuerpo recibe todos los beneficios.
    - *Duration Note:* 45 min – 1 hr.
    - *Card CTA:* `[ Consultar por Barras ]` $\rightarrow$ pre-filled WhatsApp text.
 2. **Procesos de Cuerpo (Presencial — Valledupar o a domicilio):**
-   - *Headline / Impact:* Vitalidad somática, descanso y reconciliación corporal.
-   - *Experience:* Imposición de manos suave y energética que ayuda al cuerpo a liberar memorias de trauma, tensión física y recuperar su flujo natural.
+   - *Primary Hook (Impact & Relief):* Diseñado para el cuerpo cansado, tensiones retenidas y recuperación somática. Ayuda a liberar memorias de estrés o malestar acumuladas en los tejidos, restaurando la vitalidad y el descanso natural.
+   - *Grounded Experience (What Happens):* Una sesión de toque sutil e imposición de manos sobre áreas clave del cuerpo vestidas, guiando a tu energía corporal a reconciliarse con la calma, el alivio y su propio flujo de sanación.
    - *Duration Note:* 35 min – 50 min.
    - *Card CTA:* `[ Consultar por Procesos de Cuerpo ]` $\rightarrow$ pre-filled WhatsApp text.
 3. **Mentorías de Consciencia & Oidaterapia (Presencial o Virtual):**
-   - *Headline / Impact:* Claridad emocional, resignificación de crisis y discernimiento personal.
-   - *Experience:* Acompañamiento 1:1 profundo para revisar dónde depositas tu fe, cuestionar creencias y reactivar tu soberanía interna ante encrucijadas de vida.
+   - *Primary Hook (Impact & Relief):* Acompañamiento para momentos de encrucijada, confusión emocional, transiciones vitales o cuando sientes que perdiste el rumbo. Te ayuda a ganar discernimiento, resignificar crisis y recuperar la soberanía sobre tus decisiones.
+   - *Grounded Experience (What Happens):* Un espacio seguro de escucha activa, diálogo consciente y herramientas prácticas de Oidaterapia para explorar dónde estás poniendo tu fe y desarmar creencias que ya no te sirven.
    - *Format Note:* Sesiones individuales (50–70 min) o paquetes de acompañamiento.
    - *Card CTA:* `[ Consultar por Mentorías ]` $\rightarrow$ pre-filled WhatsApp text.
 4. **Clases de Yoga & Meditación (Bajo Demanda / Corporativo):**
-   - *Description:* Clases personalizadas de Kundalini y Hatha Yoga para empresas o grupos reducidos (sin agenda abierta para v1).
+   - *Primary Hook (Impact & Relief):* Espacios para desacelerar la rutina laboral o grupal, aprender a respirar conscientemente y regular el sistema nervioso frente al desgaste del día a día.
+   - *Grounded Experience (What Happens):* Clases personalizadas de Kundalini o Hatha Yoga (KRI / RYT200) y meditaciones guiadas adaptadas a las necesidades del grupo o empresa (sin agenda pública abierta para v1).
    - *Card CTA:* `[ Contáctanos ]` $\rightarrow$ WhatsApp inquiry.
 
 *Section Transition CTA (Azu Directive):* At the bottom of the Services section, provide an explicit conversion bridge button:
