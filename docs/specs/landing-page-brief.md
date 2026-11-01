@@ -130,17 +130,19 @@ Per Azu's explicit directive (*"considero que es importante que hayan varios bot
 
 ---
 
-## 5. Visual, Brand & Technical Requirements
+## 6. Official Brand Color Palette & Visual System
 
-- **Domain:** `elcorazoncomoportal.com`
-- **Color Palette Baseline:**
-  - Backgrounds: Warm sand / cream (`#FAF7F2`, `#F4EFE6`).
-  - Primary Brand Accent: Emerald Green / Verde Esmeralda (`#1E5E4B` / `#2D7258` representing Anahata chakra).
-  - Text & Neutrals: Deep warm charcoal / espresso (`#23211E`) for high readability.
-  - Secondary accents: Soft sage, gold/ochre touches.
-- **Typography:** Refined editorial serif for titles (high dignity, serenity) paired with clean, accessible sans-serif for body text.
-- **Accessibility & Performance:**
-  - WCAG AA contrast ratio ($\ge 4.5:1$).
-  - Minimum touch target: $\ge 44 \times 44 \text{ px}$.
-  - Mobile viewport tested down to `375px`.
-  - Zero console errors; fast static load.
+Directly extracted from Azu's official color reference swatch:
+
+| Color Name | Hex Code | Semantic Role & Usage | Contrast vs. Canvas |
+| :--- | :--- | :--- | :--- |
+| **Ivory** | `#F2EBDD` | Primary Canvas / Background (warm, organic, serene base) | Base |
+| **Forest** | `#102F27` | Primary Typography, deep headings, high-contrast dark sections | **12.14:1** (AAA) |
+| **Emerald** | `#185844` | Primary Brand Accent (Anahata heart chakra), active CTAs, badges | **7.03:1** (AAA) |
+| **Sage** | `#78947F` | Secondary Accent, subtle card borders, tags, secondary icons | Soft organic divider |
+| **Antique Gold** | `#B08A4F` | Accent highlights, decorative dividers, delicate insignia | **4.52:1** on Forest (AA) |
+
+### Contrast & Accessibility Invariant
+- **Headings & Body on Ivory (`#F2EBDD`):** Use Forest (`#102F27`) or Emerald (`#185844`), exceeding WCAG AAA standards ($\ge 7:1$).
+- **Primary Buttons:** Emerald (`#185844`) background with Ivory (`#F2EBDD`) or White (`#FFFFFF`) text ($\ge 7.03:1$).
+- **Hover / Focus Ring:** Antique Gold (`#B08A4F`) / Forest (`#102F27`).
