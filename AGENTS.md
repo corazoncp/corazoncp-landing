@@ -1,28 +1,9 @@
-# corazoncp-landing — Repository Guidelines
+# AGENTS.md: corazoncp-landing
 
-This repository contains the public landing page for **El Corazón como Portal**.
+Public landing page for **El Corazón como Portal** (`corazoncp/corazoncp-landing`, mirrored publicly to GitHub).
 
----
-
-## 1. Persona Delegation & Ownership
-
-- **Lead Specialist:** **Anne Droid** (`profile/agents/anne-droid.md`)
-  - Anne owns frontend layout, component architecture, styling tokens, responsive viewports, and client-side testing.
-  - All frontend implementation work occurs strictly on **`feat/anne/*`** branches.
-  - Code changes must be reviewed against the acceptance criteria defined in [`docs/specs/landing-page-brief.md`](./docs/specs/landing-page-brief.md).
-
----
-
-## 2. Architectural Boundaries & Anti-Complexity Rules
-
-1. **Static First:** Zero backend dependency for v1. No database or scheduling API calls.
-2. **Direct Conversion:** All calls-to-action (CTAs) link directly to WhatsApp with pre-filled message text.
-3. **Evidence-Based Styling:** Follow the aesthetic guidelines derived from the Sagrada Ela reference (warm earthy neutrals, serif headings, high visual calm) and Azu's flyer.
-4. **Clean Commits:** Follow Conventional Commits format.
-
----
-
-## 3. Git Workflow
-
-- **Branch before editing:** Always create a branch (`feat/anne/*`, `docs/*`, `chore/*`) before modifying files.
-- **Main Protection:** Never commit directly to `main`.
+## Rules for working in this repo
+- **Acceptance criteria:** Implement strictly against [`docs/specs/landing-page-brief.md`](./docs/specs/landing-page-brief.md). Never invent service copy, pricing, schedules, or contact numbers.
+- **Static-first v1:** Zero backend, database, authentication, payment, or scheduling API dependencies.
+- **Direct conversion:** All primary and per-service CTAs route directly to WhatsApp (`wa.me`) with URL-encoded pre-filled inquiry text.
+- **Visual & a11y baseline:** Mobile-first (`375px` to `1440px`), WCAG AA contrast (`>= 4.5:1`), zero console errors, and grounded warm-neutral styling per approved brand assets (never pull raw/unapproved files from workspace `.internal/`).

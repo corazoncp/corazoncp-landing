@@ -17,6 +17,6 @@ For full product specifications and acceptance criteria: [See Landing Page Brief
 
 ## 🏗️ Technical Architecture
 
-- **Stack:** Static-first web application (to be implemented on `feat/anne/*` by Anne Droid).
+- **Stack:** Static-first web application.
 - **Primary Conversion:** Direct WhatsApp links (`https://wa.me/573123907177?text=...`).
 - **Deferred:** Appointment scheduling backend and payment gateway.
