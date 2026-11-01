@@ -1,2 +1,2 @@
 #!/usr/bin/env sh
-npx @biomejs/biome check --staged --error-on-warnings
+npx @biomejs/biome check --staged --error-on-warnings --no-errors-on-unmatched
