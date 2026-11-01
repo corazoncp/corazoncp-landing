@@ -45,11 +45,13 @@ Prospective clients frequently experience the overwhelm, chronic stress, anxiety
 
 ---
 
-## 4. Content Hierarchy & Section Specifications (6 Key Sections)
+## 4. Content Hierarchy & Section Specifications (Azu's Reordered Sequence)
+
+*Architectural Sequence Change (Oct 30 Directives):* Services appear immediately following the Hero to capture high-intent visitors without delay, followed by Azu's personal story, brand philosophy, and contact.
 
 ### Section 01: Header & Minimal Navigation
 - **Branding:** Logo icon (sacred geometry heart) + "El Corazón como Portal".
-- **Navigation Links:** Smooth scroll anchors to `Acerca de mí`, `Servicios`, `Filosofía`, and `Contacto`.
+- **Navigation Links:** Smooth scroll anchors to `Servicios`, `Acerca de Azu`, `Filosofía`, and `Contacto`.
 - **Constraint:** Zero login buttons or customer portal placeholders.
 
 ### Section 02: Hero — Identity, Outcome & Immediate Action
@@ -58,15 +60,9 @@ Prospective clients frequently experience the overwhelm, chronic stress, anxiety
 - **Supporting Narrative:** Brief, tangible explanation of how Azu accompanies individuals to restore nervous system balance, release mental noise, and reconnect with inner vitality.
 - **Primary CTA:** `[ Conversar por WhatsApp ]` $\rightarrow$ triggers `https://wa.me/573215428972?text=Hola%20Azu,%20visité%20tu%20página%20y%20me%20gustaría%20conversar%20sobre%20tus%20sesiones.`
 
-### Section 03: Acerca de Azu (Story & Approach)
-- **Content Narrative (from Azu's verified text):**
-  - Former audiovisual director and producer in Colombian national television who experienced the deep emptiness and exhaustion of living on autopilot.
-  - Chose to "saltar al vacío" following an intuitive call to explore what lies on the other side of discomfort.
-  - Dedicated recent years to studying and embodying ancient somatic technologies: Tantra, Yoga (RYT200 / KRI), Humanology, Vedic philosophy, and Oidaterapia.
-  - Accompanies others not as a guru with an external map, but as a facilitator of their own inner compass, guiding them to recognize that their body and energy already hold the medicine.
-
-### Section 04: Servicios & Acompañamiento (Outcome-First Offerings)
-*Mandatory Copy Rule:* Lead with the **tangible impact / problem addressed** (e.g. stress relief, insomnia, physical exhaustion, mental noise), followed by a brief, accessible description of the physical session experience:
+### Section 03: Servicios & Acompañamiento (Outcome-First Offerings)
+*Placement Rule:* Placed **before** "Acerca de Azu" per Azu's explicit request (*"creo que pensándolo bien, me gustaría primero que apareciesen los servicios y debajo sí el quién es Azu"*).
+*Copy Rule:* Lead with the **tangible impact / problem addressed** (e.g. stress relief, insomnia, physical exhaustion, mental noise), followed by a brief, accessible description of the physical session experience.
 
 1. **Barras de Access® (Presencial — Valledupar o a domicilio):**
    - *Headline / Impact:* Calma mental profunda y liberación de estrés acumulado.
@@ -87,11 +83,22 @@ Prospective clients frequently experience the overwhelm, chronic stress, anxiety
    - *Description:* Clases personalizadas de Kundalini y Hatha Yoga para empresas o grupos reducidos (sin agenda abierta para v1).
    - *Card CTA:* `[ Contáctanos ]` $\rightarrow$ WhatsApp inquiry.
 
+*Section Transition CTA (Azu Directive):* At the bottom of the Services section, provide an explicit conversion bridge button:
+- **Button:** `[ Quiero agendar una sesión ]` / `[ Quiero más información ]` $\rightarrow$ triggers `https://wa.me/573215428972?text=Hola%20Azu,%20estuve%20viendo%20tus%20servicios%20y%20me%20gustaría%20agendar%20una%20sesión.`
+
+### Section 04: Acerca de Azu (Story & Approach)
+- **Content Narrative (from Azu's verified text):**
+  - Former audiovisual director and producer in Colombian national television who experienced the deep emptiness and exhaustion of living on autopilot.
+  - Chose to "saltar al vacío" following an intuitive call to explore what lies on the other side of discomfort.
+  - Dedicated recent years to studying and embodying ancient somatic technologies: Tantra, Yoga (RYT200 / KRI), Humanology, Vedic philosophy, and Oidaterapia.
+  - Accompanies others not as a guru with an external map, but as a facilitator of their own inner compass, guiding them to recognize that their body and energy already hold the medicine.
+
 ### Section 05: El Corazón como Portal (Propósito & Filosofía)
 - Excerpt of core philosophy: El corazón (Anahata chakra) como centro de discernimiento, ecuanimidad y despertar.
 - Redefining healing from passive waiting to sovereign participation (the concept of the **Animado**).
 
 ### Section 06: Contacto, Redes & Cierre
+- Direct conversion button: `[ Contáctame por WhatsApp ]` $\rightarrow$ `https://wa.me/573215428972?text=Hola%20Azu,%20quisiera%20ponerme%20en%20contacto%20contigo.`
 - Direct channels:
   - **WhatsApp Business Directo:** `+57 321 542 8972` (`https://wa.me/573215428972`)
   - **Email:** `contactocorazoncp@gmail.com`
@@ -100,6 +107,19 @@ Prospective clients frequently experience the overwhelm, chronic stress, anxiety
   - **X (Twitter):** `https://x.com/Elcorazoncp` (`@Elcorazoncp`)
   - **Dirección & Ubicación:** Calle 7 #19B-88 Apto 102, Valledupar, Colombia, 200005 (atención presencial y a domicilio)
 - **Floating WhatsApp Anchor:** Persistent/floating action button allowing instant jump or direct click to chat.
+
+---
+
+## 5. CTA Distribution Strategy (Multi-Touch WhatsApp Conversion)
+
+Per Azu's explicit directive (*"considero que es importante que hayan varios botones de llamado a la acción que redirijan la persona al WhatsApp"*), the landing page distributes conversion opportunities at natural decision moments:
+
+1. **Top / Hero CTA:** `[ Conversar por WhatsApp ]` — immediate action for returning visitors or warm leads.
+2. **Per-Service CTAs:** Dedicated buttons on each of the 4 service cards with contextual pre-filled messages.
+3. **Post-Services Anchor CTA:** `[ Quiero agendar una sesión ]` / `[ Quiero más información ]` — captures users immediately after reviewing the catalog.
+4. **Final Contact CTA:** `[ Contáctame por WhatsApp ]` — in Section 06 alongside verified socials and physical address.
+5. **Floating Action:** Global floating WhatsApp button visible across scroll.
+6. **Strict Business Channel Guardrail:** Every CTA exclusively targets WhatsApp Business `+57 321 542 8972` (matching Facebook/Instagram directory), never Azu's personal line.
 
 ---
 
