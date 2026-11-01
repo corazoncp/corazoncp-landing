@@ -1,0 +1,26 @@
+{
+  "name": "corazoncp-landing",
+  "version": "1.0.0",
+  "description": "Public landing page for El Corazón como Portal",
+  "type": "module",
+  "scripts": {
+    "dev": "vp dev",
+    "build": "vp build",
+    "preview": "vp preview",
+    "lint": "biome check .",
+    "lint:fix": "biome check --write .",
+    "format": "biome format --write .",
+    "prepare": "vp hooks enable"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@gitea.roadtotech.me:2223/corazoncp/corazoncp-landing.git"
+  },
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@biomejs/biome": "2.6.4",
+    "@tailwindcss/vite": "^4.3.3",
+    "tailwindcss": "^4.3.3",
+    "vite-plus": "^1.4.0"
+  }
+}
