@@ -1,5 +1,6 @@
 .direnv
 node_modules/
+.pnpm-store/
 dist/
 .vite/
 .vite-hooks/_
