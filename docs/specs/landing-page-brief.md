@@ -56,7 +56,7 @@ Prospective clients frequently experience the overwhelm, chronic stress, anxiety
 
 ### Section 02: Hero — Identity, Dual Modality & Immediate Action
 - **Visuals:** Warm sand/cream background, Azu's grounding portrait (warm lifestyle), emerald green accent.
-- **Eyebrow (Dual Modality):** `ACOMPAÑAMIENTO CONSCIENTE · VALLEDUPAR & SESIONES ONLINE`
+- **Eyebrow (Dual Modality):** `ACOMPAÑAMIENTO CONSCIENTE · VALLEDUPAR & ONLINE` *(Selected default pending client confirmation)*
 - **Headline (Slogan):** *"Sal del automático. Abre tu corazón, recupera tu soberanía."*
 - **The "Esto es lo que necesito" Identification Rule:** Directly addresses chronic overwhelm, mental chatter, nervous system fatigue, and the quiet ache of living in autopilot.
 - **Primary CTA:** `[ Conversar por WhatsApp ]` $\rightarrow$ triggers `https://wa.me/573215428972?text=Hola%20Azu,%20visité%20tu%20página%20y%20me%20gustaría%20conversar%20sobre%20tus%20sesiones.`
