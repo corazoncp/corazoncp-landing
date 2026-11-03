@@ -62,6 +62,16 @@ test('Slice 2 Acceptance Criteria: Hero and WhatsApp Flow', async (t) => {
         href.includes(expectedEncoded) || href.includes('Hola%20Azu'),
         'URL must contain correctly percent-encoded query parameter',
       );
+      assert.match(
+        ctaMatch[0],
+        /target="_blank"/i,
+        'Hero CTA must open in a new tab (target="_blank")',
+      );
+      assert.match(
+        ctaMatch[0],
+        /rel="noopener noreferrer"/i,
+        'Hero CTA must include rel="noopener noreferrer"',
+      );
     },
   );
 
@@ -93,6 +103,18 @@ test('Slice 2 Acceptance Criteria: Hero and WhatsApp Flow', async (t) => {
       // Crisp SVG WhatsApp icon (no emoji placeholder)
       assert.ok(buttonMarkup.includes('<svg'), 'Floating button must contain an inline SVG icon');
       assert.ok(!buttonMarkup.includes('💬'), 'Floating button must not use emoji 💬');
+
+      // New tab target
+      assert.match(
+        buttonMarkup,
+        /target="_blank"/i,
+        'Floating WhatsApp button must open in a new tab (target="_blank")',
+      );
+      assert.match(
+        buttonMarkup,
+        /rel="noopener noreferrer"/i,
+        'Floating WhatsApp button must include rel="noopener noreferrer"',
+      );
     },
   );
 
