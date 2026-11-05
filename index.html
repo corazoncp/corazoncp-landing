@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,600&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="/src/style.css" />
@@ -33,15 +33,16 @@
     </a>
 
     <!-- Section 01: Header & Minimal Nav -->
-    <header class="sticky top-0 z-40 border-b border-sage/20 bg-ivory/90 backdrop-blur-md">
+    <header class="sticky top-0 z-40 border-b border-sage/30 bg-sage/15 backdrop-blur-md">
       <div class="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
         <a href="#hero" class="flex items-center gap-3">
           <img src="/img/logo.png" alt="Logo El Corazón como Portal" class="h-10 w-10 object-contain" />
-          <span class="font-serif text-xl font-bold tracking-wider uppercase">El Corazón como Portal</span>
+          <span class="font-display text-xl font-bold tracking-wider uppercase text-forest">El Corazón como Portal</span>
         </a>
         <nav aria-label="Navegación principal">
-          <ul class="hidden md:flex md:items-center md:gap-8 text-sm font-medium">
+          <ul class="hidden md:flex md:items-center md:gap-8 text-sm font-medium text-forest">
             <li><a href="#servicios" class="transition hover:text-emerald">Servicios</a></li>
+            <li><a href="#otros-espacios" class="transition hover:text-emerald">Otros Espacios</a></li>
             <li><a href="#acerca" class="transition hover:text-emerald">Acerca de Azu</a></li>
             <li><a href="#filosofia" class="transition hover:text-emerald">Filosofía</a></li>
             <li><a href="#contacto" class="transition hover:text-emerald">Contacto</a></li>
@@ -59,11 +60,14 @@
             <span class="inline-block text-xs font-bold uppercase tracking-widest text-gold mb-3">
               Acompañamiento Consciente · Valledupar & Online
             </span>
-            <h1 class="font-serif text-4xl leading-tight sm:text-5xl lg:text-6xl text-forest font-semibold mb-6">
+            <h1 class="font-display text-4xl leading-tight sm:text-5xl lg:text-6xl text-forest font-semibold mb-6">
               Sal del automático. Abre tu corazón, recupera tu soberanía.
             </h1>
-            <p class="text-base sm:text-lg text-forest/85 leading-relaxed max-w-xl mb-8">
-              ¿Vives en el cansancio del piloto automático, el parloteo mental incesante y la fatiga del sistema nervioso? Este es un espacio sereno para soltar la sobrecarga, aquietar la mente y abrir tu corazón a tu propia medicina interna.
+            <p class="text-base sm:text-lg text-forest/90 leading-relaxed max-w-xl mb-4 font-normal">
+              Acompañamiento integral para habitar tu cuerpo sin dolor, disipar el estrés, la ansiedad y el insomnio. Un espacio seguro para transitar procesos de sanación emocional profunda, recuperar tu vitalidad y liderar tu vida desde la soberanía.
+            </p>
+            <p class="text-sm sm:text-base text-forest/80 leading-relaxed max-w-xl mb-8">
+              Un respiro consciente frente al parloteo mental y la fatiga del sistema nervioso para abrir tu corazón a tu propia medicina interna.
             </p>
             <a
               href="https://wa.me/573215428972?text=Hola%20Azu,%20visit%C3%A9%20tu%20p%C3%A1gina%20y%20me%20gustar%C3%ADa%20conversar%20sobre%20tus%20sesiones."
@@ -85,7 +89,7 @@
               />
             </div>
             <div class="mt-4 md:mt-0 md:absolute md:-bottom-6 md:-left-6 rounded-2xl border border-gold/40 bg-ivory p-4 shadow-xl max-w-xs">
-              <p class="font-serif italic text-sm text-forest/90">
+              <p class="font-serif italic text-xs sm:text-sm md:text-base lg:text-lg text-forest/90 leading-relaxed">
                 “En tu cuerpo, mente y energía reside la medicina para sanarte.”
               </p>
             </div>
@@ -100,7 +104,7 @@
             <span class="inline-block text-xs font-bold uppercase tracking-widest text-gold mb-2">
               Caminos de Bienestar
             </span>
-            <h2 class="font-serif text-3xl sm:text-4xl lg:text-5xl font-semibold text-forest mb-4">
+            <h2 class="font-display text-3xl sm:text-4xl lg:text-5xl font-semibold text-forest mb-4">
               Servicios & Terapias
             </h2>
             <p class="text-forest/80 text-base sm:text-lg">
@@ -108,45 +112,130 @@
             </p>
           </div>
 
-          <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3 mb-14">
-            <!-- Card 1: Barras de Access -->
-            <div class="flex flex-col justify-between rounded-2xl border border-sage/30 bg-white/70 p-8 shadow-sm transition hover:-translate-y-1 hover:border-gold hover:shadow-md">
+          <div class="grid grid-cols-1 md:grid-cols-6 gap-8">
+            <!-- Card 1: Mentorías y Oidaterapia -->
+            <div class="md:col-span-2 flex flex-col justify-between rounded-2xl border border-sage/30 bg-white/70 p-6 sm:p-8 shadow-sm transition hover:-translate-y-1 hover:border-gold hover:shadow-md">
               <div>
-                <div class="flex items-center justify-between text-xs font-bold uppercase tracking-wider text-gold mb-3">
-                  <span>Presencial · Valledupar</span>
-                  <span>45 – 60 min</span>
+                <div class="overflow-hidden rounded-xl aspect-[4/3] mb-5 bg-sage/10">
+                  <img
+                    src="/img/oidaterapia.webp"
+                    alt="Sesión de Mentorías y Oidaterapia para discernimiento y claridad emocional"
+                    class="h-full w-full object-cover transition duration-300 hover:scale-105"
+                    loading="lazy"
+                  />
                 </div>
-                <h3 class="font-serif text-2xl font-bold text-forest mb-4">Barras de Access®</h3>
+                <div class="flex items-center justify-between text-xs font-bold uppercase tracking-wider text-gold mb-3">
+                  <span>Online & Presencial</span>
+                  <span>50 – 70 min</span>
+                </div>
+                <h3 class="font-serif text-2xl font-bold text-forest mb-3">Mentorías y Oidaterapia</h3>
                 <div class="mb-4 rounded-r-lg border-l-4 border-emerald bg-emerald/5 p-3">
-                  <p class="text-sm font-semibold text-forest">Calma mental profunda y liberación de estrés acumulado.</p>
+                  <p class="text-sm font-semibold text-forest">Claridad emocional, discernimiento personal y revisión de encrucijadas de vida.</p>
                 </div>
                 <p class="text-sm text-forest/80 leading-relaxed mb-6">
-                  Te recuestas cómodamente en camilla mientras toco suavemente 32 puntos energéticos en tu cabeza. Un proceso sutil y no invasivo que aquieta la mente y disipa pensamientos repetitivos.
+                  Espacio de escucha profunda para revisar dónde estás poniendo tu fe y desarmar creencias que ya no te sirven.
                 </p>
               </div>
               <a
-                href="https://wa.me/573215428972?text=Hola%20Azu,%20me%20gustar%C3%ADa%20consultar%20sobre%20las%20sesiones%20de%20Barras%20de%20Access."
+                href="https://wa.me/573215428972?text=Hola%20Azu,%20me%20gustar%C3%ADa%20agendar%20una%20sesi%C3%B3n%20inicial%20de%20Mentor%C3%ADas%20y%20Oidaterapia."
                 target="_blank"
                 rel="noopener noreferrer"
                 class="block w-full rounded-full border border-emerald px-6 py-3 text-center text-sm font-semibold text-emerald transition hover:bg-emerald hover:text-ivory"
               >
-                Consultar por Barras →
+                Agendar Sesión Inicial →
               </a>
             </div>
 
-            <!-- Card 2: Procesos de Cuerpo -->
-            <div class="flex flex-col justify-between rounded-2xl border border-sage/30 bg-white/70 p-8 shadow-sm transition hover:-translate-y-1 hover:border-gold hover:shadow-md">
+            <!-- Card 2: Clases de Kundalini Yoga y Acompañamientos -->
+            <div class="md:col-span-2 flex flex-col justify-between rounded-2xl border border-sage/30 bg-white/70 p-6 sm:p-8 shadow-sm transition hover:-translate-y-1 hover:border-gold hover:shadow-md">
               <div>
+                <div class="overflow-hidden rounded-xl aspect-[4/3] mb-5 bg-sage/10">
+                  <img
+                    src="/img/kundalini-yoga.webp"
+                    alt="Clases de Kundalini Yoga y acompañamiento con respiración consciente"
+                    class="h-full w-full object-cover transition duration-300 hover:scale-105"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="flex items-center justify-between text-xs font-bold uppercase tracking-wider text-gold mb-3">
+                  <span>Online & Presencial</span>
+                  <span>Acompañamiento</span>
+                </div>
+                <h3 class="font-serif text-2xl font-bold text-forest mb-3">Clases de Kundalini Yoga y Acompañamientos</h3>
+                <div class="mb-4 rounded-r-lg border-l-4 border-emerald bg-emerald/5 p-3">
+                  <p class="text-sm font-semibold text-forest">Vitalidad, respiración consciente, kriya y despertar de la energía interna frente al insomnio y la fatiga.</p>
+                </div>
+                <p class="text-sm text-forest/80 leading-relaxed mb-6">
+                  Tecnologías y kriyas orientadas a equilibrar el sistema glandular, fortalecer tu sistema nervioso y expandir tu presencia vital.
+                </p>
+              </div>
+              <a
+                href="https://wa.me/573215428972?text=Hola%20Azu,%20me%20gustar%C3%ADa%20consultar%20sobre%20las%20Clases%20de%20Kundalini%20Yoga%20y%20Acompa%C3%B1amientos."
+                target="_blank"
+                rel="noopener noreferrer"
+                class="block w-full rounded-full border border-emerald px-6 py-3 text-center text-sm font-semibold text-emerald transition hover:bg-emerald hover:text-ivory"
+              >
+                Consultar Kundalini Yoga →
+              </a>
+            </div>
+
+            <!-- Card 3: Terapias Energéticas (Barras de Access®) -->
+            <div class="md:col-span-2 flex flex-col justify-between rounded-2xl border border-sage/30 bg-white/70 p-6 sm:p-8 shadow-sm transition hover:-translate-y-1 hover:border-gold hover:shadow-md">
+              <div>
+                <div class="overflow-hidden rounded-xl aspect-[4/3] mb-5 bg-sage/10">
+                  <img
+                    src="/img/barras-access.webp"
+                    alt="Sesión de Barras de Access en Valledupar para liberación de sobrecarga mental"
+                    class="h-full w-full object-cover transition duration-300 hover:scale-105"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="flex items-center justify-between text-xs font-bold uppercase tracking-wider text-gold mb-3">
+                  <span>Presencial · Valledupar</span>
+                  <span>45 – 60 min</span>
+                </div>
+                <h3 class="font-serif text-2xl font-bold text-forest mb-3">Terapias Energéticas (Barras de Access®)</h3>
+                <div class="mb-3 rounded-r-lg border-l-4 border-emerald bg-emerald/5 p-3">
+                  <p class="text-sm font-semibold text-forest">«Disipa carga mental y libera de creencias limitantes»</p>
+                </div>
+                <p class="text-xs text-forest/70 mb-3">
+                  Técnica certificada internacionalmente por <a href="https://www.accessconsciousness.com/bars" target="_blank" rel="noopener noreferrer" class="font-medium text-emerald underline hover:text-forest">Access Consciousness®</a>.
+                </p>
+                <p class="text-sm text-forest/80 leading-relaxed mb-6">
+                  Toques suaves sobre 32 puntos de la cabeza para disipar sobrecarga electromagnética. Te recuestas cómodamente mientras se aquieta el flujo de pensamientos recurrentes.
+                </p>
+              </div>
+              <a
+                href="https://wa.me/573215428972?text=Hola%20Azu,%20me%20gustar%C3%ADa%20agendar%20una%20sesi%C3%B3n%20de%20Barras%20de%20Access%C2%AE%20en%20Valledupar."
+                target="_blank"
+                rel="noopener noreferrer"
+                class="block w-full rounded-full border border-emerald px-6 py-3 text-center text-sm font-semibold text-emerald transition hover:bg-emerald hover:text-ivory"
+              >
+                Consultar Barras de Access® →
+              </a>
+            </div>
+
+            <!-- Card 4: Procesos de Cuerpo -->
+            <div class="md:col-span-2 md:col-start-2 flex flex-col justify-between rounded-2xl border border-sage/30 bg-white/70 p-6 sm:p-8 shadow-sm transition hover:-translate-y-1 hover:border-gold hover:shadow-md">
+              <div>
+                <div class="overflow-hidden rounded-xl aspect-[4/3] mb-5 bg-sage/10">
+                  <img
+                    src="/img/procesos-cuerpo.webp"
+                    alt="Sesión de Procesos de Cuerpo para alivio del dolor y ligereza somática"
+                    class="h-full w-full object-cover transition duration-300 hover:scale-105"
+                    loading="lazy"
+                  />
+                </div>
                 <div class="flex items-center justify-between text-xs font-bold uppercase tracking-wider text-gold mb-3">
                   <span>Presencial · Valledupar</span>
                   <span>35 – 50 min</span>
                 </div>
-                <h3 class="font-serif text-2xl font-bold text-forest mb-4">Procesos de Cuerpo</h3>
+                <h3 class="font-serif text-2xl font-bold text-forest mb-3">Procesos de Cuerpo</h3>
                 <div class="mb-4 rounded-r-lg border-l-4 border-emerald bg-emerald/5 p-3">
-                  <p class="text-sm font-semibold text-forest">Vitalidad somática, descanso y reconciliación corporal.</p>
+                  <p class="text-sm font-semibold text-forest">«Liberando dolor y ligereza»</p>
                 </div>
                 <p class="text-sm text-forest/80 leading-relaxed mb-6">
-                  Imposición de manos suave y energética sobre áreas clave del cuerpo. Ayuda a liberar memorias de fatiga o malestar retenidas en los tejidos, restaurando la sensación de ligereza.
+                  Imposición somática no invasiva orientada al alivio del dolor físico y reconexión celular. Facilita la liberación de tensiones y memorias retenidas en los tejidos.
                 </p>
               </div>
               <a
@@ -155,57 +244,128 @@
                 rel="noopener noreferrer"
                 class="block w-full rounded-full border border-emerald px-6 py-3 text-center text-sm font-semibold text-emerald transition hover:bg-emerald hover:text-ivory"
               >
-                Consultar Procesos →
+                Consultar Procesos de Cuerpo →
               </a>
             </div>
 
-            <!-- Card 3: Mentorías & Oidaterapia -->
-            <div class="flex flex-col justify-between rounded-2xl border border-sage/30 bg-white/70 p-8 shadow-sm transition hover:-translate-y-1 hover:border-gold hover:shadow-md">
+            <!-- Card 5: Meditaciones Personalizadas -->
+            <div class="md:col-span-2 flex flex-col justify-between rounded-2xl border border-sage/30 bg-white/70 p-6 sm:p-8 shadow-sm transition hover:-translate-y-1 hover:border-gold hover:shadow-md">
               <div>
-                <div class="flex items-center justify-between text-xs font-bold uppercase tracking-wider text-gold mb-3">
-                  <span>Presencial u Online</span>
-                  <span>50 – 70 min</span>
+                <div class="overflow-hidden rounded-xl aspect-[4/3] mb-5 bg-sage/10">
+                  <img
+                    src="/img/meditaciones.webp"
+                    alt="Meditaciones personalizadas grabadas a tu medida"
+                    class="h-full w-full object-cover transition duration-300 hover:scale-105"
+                    loading="lazy"
+                  />
                 </div>
-                <h3 class="font-serif text-2xl font-bold text-forest mb-4">Mentorías & Oidaterapia</h3>
+                <div class="flex items-center justify-between text-xs font-bold uppercase tracking-wider text-gold mb-3">
+                  <span>Asíncrono · Audio Digital</span>
+                  <span>A tu propio ritmo</span>
+                </div>
+                <h3 class="font-serif text-2xl font-bold text-forest mb-3">Meditaciones Personalizadas</h3>
                 <div class="mb-4 rounded-r-lg border-l-4 border-emerald bg-emerald/5 p-3">
-                  <p class="text-sm font-semibold text-forest">Claridad emocional, discernimiento y sentido en encrucijadas.</p>
+                  <p class="text-sm font-semibold text-forest">Una herramienta sonora diseñada a la medida de tu estado emocional actual.</p>
                 </div>
                 <p class="text-sm text-forest/80 leading-relaxed mb-6">
-                  Un diálogo profundo de escucha consciente para revisar dónde estás poniendo tu fe, desarmar creencias que te limitan y reactivar tu brújula interior ante decisiones cruciales.
+                  Entrega asíncrona en audio guiado aproximadamente 2 días después de diligenciar una breve consulta reflexiva para acompañar tu proceso personal.
                 </p>
               </div>
               <a
-                href="https://wa.me/573215428972?text=Hola%20Azu,%20me%20gustar%C3%ADa%20consultar%20sobre%20las%20Mentor%C3%ADas%20de%20Consciencia%20y%20Oidaterapia."
+                href="https://wa.me/573215428972?text=Hola%20Azu,%20me%20gustar%C3%ADa%20solicitar%20una%20Meditaci%C3%B3n%20Personalizada."
                 target="_blank"
                 rel="noopener noreferrer"
                 class="block w-full rounded-full border border-emerald px-6 py-3 text-center text-sm font-semibold text-emerald transition hover:bg-emerald hover:text-ivory"
               >
-                Consultar Mentoría →
+                Solicitar Meditación →
               </a>
             </div>
-          </div>
-
-          <!-- Bridge CTA -->
-          <div class="mx-auto max-w-3xl rounded-2xl border border-dashed border-gold bg-gold/10 p-8 text-center">
-            <h3 class="font-serif text-2xl font-semibold text-forest mb-2">
-              ¿Sientes que necesitas un momento para ti?
-            </h3>
-            <p class="text-forest/85 text-sm sm:text-base mb-6">
-              Conversemos directamente para encontrar la terapia que mejor resuene con lo que tu cuerpo y momento piden.
-            </p>
-            <a
-              href="https://wa.me/573215428972?text=Hola%20Azu,%20estuve%20viendo%20tus%20servicios%20y%20me%20gustar%C3%ADa%20agendar%20una%20sesi%C3%B3n."
-              target="_blank"
-              rel="noopener noreferrer"
-              class="inline-flex items-center justify-center rounded-full bg-emerald px-8 py-3.5 text-sm font-semibold text-ivory transition hover:bg-forest"
-            >
-              Quiero agendar o recibir información
-            </a>
           </div>
         </div>
       </section>
 
-      <!-- Section 04: Acerca de Azu -->
+      <!-- Section 04: Caminos Complementarios / Explora Otros Espacios -->
+      <section id="otros-espacios" class="py-16 md:py-24 border-b border-sage/20 bg-ivory">
+        <div class="mx-auto max-w-6xl px-6">
+          <div class="mb-12">
+            <span class="inline-block text-xs font-bold uppercase tracking-widest text-gold mb-2">
+              Caminos Complementarios
+            </span>
+            <h2 class="font-display text-3xl sm:text-4xl lg:text-5xl font-semibold text-forest">
+              EXPLORA OTROS ESPACIOS
+            </h2>
+            <div class="mt-3 h-1 w-20 bg-gradient-to-r from-gold to-sage rounded-full"></div>
+          </div>
+
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch">
+            <!-- Panel A (65% Anchor: Hatha Yoga) -->
+            <div class="lg:col-span-8 flex flex-col justify-between rounded-3xl border border-sage/30 bg-white/70 p-6 sm:p-8 shadow-sm overflow-hidden">
+              <div>
+                <div class="overflow-hidden rounded-2xl aspect-[16/9] mb-6 bg-sage/10">
+                  <img
+                    src="/img/hatha-yoga.webp"
+                    alt="Clase de Hatha Yoga al aire libre con alineación y respiración consciente"
+                    class="h-full w-full object-cover transition duration-300 hover:scale-105"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="flex items-center justify-between text-xs font-bold uppercase tracking-wider text-gold mb-3">
+                  <span>Práctica Corporal & Somática</span>
+                  <span>Presencial & Virtual</span>
+                </div>
+                <h3 class="font-serif text-2xl sm:text-3xl font-bold text-forest mb-3">
+                  Clases de Hatha Yoga (Personalizadas y Grupales)
+                </h3>
+                <p class="text-forest/85 text-sm sm:text-base leading-relaxed mb-6">
+                  Acompañamiento físico enfocado en alineación, respiración consciente y desbloqueo somático. Una práctica enraizada y progresiva para liberar tensiones corporales crónicas y habitar tu postura desde la calma.
+                </p>
+              </div>
+              <div>
+                <a
+                  href="https://wa.me/573215428972?text=Hola%20Azu,%20me%20gustar%C3%ADa%20conversar%20sobre%20las%20Clases%20de%20Hatha%20Yoga."
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="inline-flex w-full sm:w-auto items-center justify-center gap-3 rounded-full bg-emerald px-8 py-3.5 text-sm font-semibold text-ivory shadow-md transition hover:bg-forest"
+                >
+                  <span>Conversar sobre Clases por WhatsApp</span>
+                  <span>→</span>
+                </a>
+              </div>
+            </div>
+
+            <!-- Panel B (35% Quiet Panel: Recursos Abiertos) -->
+            <div class="lg:col-span-4 flex flex-col justify-between rounded-3xl border border-sage/40 bg-porcelain-mist p-6 sm:p-8 shadow-sm">
+              <div>
+                <span class="inline-block text-xs font-bold uppercase tracking-widest text-gold mb-3">
+                  RECURSOS ABIERTOS
+                </span>
+                <h3 class="font-serif text-2xl sm:text-3xl font-bold text-forest mb-4">
+                  Luz en tu Camino (YouTube & Podcast)
+                </h3>
+                <p class="text-forest/85 text-sm sm:text-base leading-relaxed mb-6 italic">
+                  «Meditaciones abiertas para encontrar calma y reconectar contigo a tu propio ritmo.»
+                </p>
+                <div class="rounded-xl border border-sage/20 bg-white/60 p-4 mb-6">
+                  <p class="text-xs text-forest/75 flex items-center gap-2">
+                    <span class="inline-block h-2 w-2 rounded-full bg-emerald shrink-0"></span>
+                    <span>Próximamente disponible en Spotify con meditaciones y reflexiones abiertas.</span>
+                  </p>
+                </div>
+              </div>
+              <a
+                href="https://www.youtube.com/@Elcoraz%C3%B3ncomoportal"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="inline-flex w-full items-center justify-center gap-2 rounded-full border border-forest/30 bg-white px-6 py-3 text-center text-sm font-semibold text-forest transition hover:bg-forest hover:text-ivory shadow-sm"
+              >
+                <span>Explorar meditaciones →</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 05: Acerca de Azu (reserved for Slice 4) -->
       <section id="acerca" class="py-16 md:py-24">
         <div class="mx-auto grid max-w-6xl items-center gap-12 px-6 md:grid-cols-12">
           <div class="md:col-span-5">
@@ -222,7 +382,7 @@
             <span class="inline-block text-xs font-bold uppercase tracking-widest text-gold mb-2">
               Conoce a tu Acompañante
             </span>
-            <h2 class="font-serif text-3xl sm:text-4xl lg:text-5xl font-semibold text-forest mb-4">
+            <h2 class="font-display text-3xl sm:text-4xl lg:text-5xl font-semibold text-forest mb-4">
               Azucena Sánchez
             </h2>
             <p class="font-serif italic text-lg sm:text-xl text-emerald mb-6">
@@ -243,7 +403,7 @@
         </div>
       </section>
 
-      <!-- Section 05: Filosofía -->
+      <!-- Section 06: Filosofía (reserved for Slice 4) -->
       <section id="filosofia" class="bg-forest py-16 md:py-24 text-center text-ivory">
         <div class="mx-auto max-w-4xl px-6">
           <blockquote class="font-serif italic text-2xl sm:text-3xl lg:text-4xl leading-snug mb-6 text-ivory/95">
@@ -255,7 +415,7 @@
         </div>
       </section>
 
-      <!-- Section 06: Contacto -->
+      <!-- Section 07: Contacto -->
       <section id="contacto" class="py-16 md:py-24">
         <div class="mx-auto max-w-6xl px-6">
           <div class="rounded-3xl border border-sage/30 bg-white/60 p-8 sm:p-12 lg:p-16 shadow-sm">
@@ -264,7 +424,7 @@
                 <span class="inline-block text-xs font-bold uppercase tracking-widest text-gold mb-2">
                   Empecemos una Conversación
                 </span>
-                <h2 class="font-serif text-3xl sm:text-4xl font-semibold text-forest mb-4">
+                <h2 class="font-display text-3xl sm:text-4xl font-semibold text-forest mb-4">
                   Contacto Directo
                 </h2>
                 <p class="text-forest/80 text-sm sm:text-base leading-relaxed mb-8">
@@ -339,6 +499,10 @@
                   <div>
                     <h3 class="text-sm font-bold text-forest">Redes & Comunidad</h3>
                     <div class="flex flex-wrap gap-4 text-xs font-semibold text-emerald mt-2">
+                      <a href="https://www.facebook.com/elcorazoncomoportal/" target="_blank" rel="noopener noreferrer" class="hover:underline">
+                        Facebook
+                      </a>
+                      <span>·</span>
                       <a href="https://www.instagram.com/elcorazoncomoportal" target="_blank" rel="noopener noreferrer" class="hover:underline">
                         Instagram
                       </a>
@@ -363,6 +527,47 @@
     <!-- Footer -->
     <footer class="mt-16 border-t border-sage/20 py-12 text-center text-xs text-forest/60">
       <div class="mx-auto max-w-6xl px-6">
+        <div class="flex items-center justify-center gap-6 mb-4">
+          <a
+            href="https://www.facebook.com/elcorazoncomoportal/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="transition hover:text-emerald font-medium"
+            aria-label="Facebook Fanpage oficial de El Corazón como Portal"
+          >
+            Facebook
+          </a>
+          <span>·</span>
+          <a
+            href="https://www.instagram.com/elcorazoncomoportal"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="transition hover:text-emerald font-medium"
+            aria-label="Instagram"
+          >
+            Instagram
+          </a>
+          <span>·</span>
+          <a
+            href="https://www.youtube.com/@Elcoraz%C3%B3ncomoportal"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="transition hover:text-emerald font-medium"
+            aria-label="YouTube"
+          >
+            YouTube
+          </a>
+          <span>·</span>
+          <a
+            href="https://x.com/Elcorazoncp"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="transition hover:text-emerald font-medium"
+            aria-label="X Twitter"
+          >
+            X (Twitter)
+          </a>
+        </div>
         <p>© 2026 El Corazón como Portal · Todos los derechos reservados · Valledupar, Colombia</p>
       </div>
     </footer>
