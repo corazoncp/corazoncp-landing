@@ -99,15 +99,21 @@ Prospective clients frequently experience the overwhelm, chronic stress, anxiety
    - *Visual Touch:* Fotografía en la cascada (`WhatsApp Image 2025-10-20 at 12.55.40_0dc0097c.jpg`).
    - *Card CTA:* `[ Solicitar Meditación ]` $\rightarrow$ pre-filled WhatsApp text.
 
-### Section 04: Cierre de Servicios & Recursos Gratuitos (Puente de Transición)
-- **Recursos Gratuitos & Podcast:**
-  - **Heading:** *"Recursos Gratuitos: Luz en tu Camino"*
-  - **Description:** *"Escucha nuestras meditaciones abiertas y episodios formativos en el canal oficial de YouTube y próximamente en Spotify."*
-  - **Embedded / Featured Links:** Meditaciones públicas en YouTube (`https://www.youtube.com/@Elcorazóncomoportal`).
-- **Invitación a Hatha Yoga:**
-  - Invitación secundaria a conocer clases de Hatha Yoga personalizadas y grupales.
-  - **Fotografía:** `IMG_9204.CR2` o `WhatsApp Image 2025-12-17 at 2.38.44 PM`.
-- **CTA Contenedor:** `[ Conversar sobre Clases y Sesiones → ]` $\rightarrow$ enlace directo a WhatsApp.
+### Section 04: Caminos Complementarios (`EXPLORA OTROS ESPACIOS`)
+- **Container Architecture:** Asymmetric 65/35 composition separating bodily practice from open community media:
+  - **Section Heading:** `EXPLORA OTROS ESPACIOS` with subtle gold and sage accents.
+  - **Panel A (65% Anchor — Clases de Hatha Yoga):**
+    - Large landscape photo (`hatha-yoga.webp` from `IMG_9204.CR2` / `WhatsApp Image 2025-12-17...`).
+    - Title: `Clases de Hatha Yoga (Personalizadas y Grupales)`.
+    - Experience: Acompañamiento físico enfocado en alineación, respiración consciente y desbloqueo somático.
+    - Primary CTA: `[ Conversar sobre Clases por WhatsApp → ]` $\rightarrow$ triggers dedicated WhatsApp inquiry.
+  - **Panel B (35% Quiet Panel — Recursos Abiertos):**
+    - Background: `Porcelain Mist` (`#F4F1EA`) with subtle `Sage` border.
+    - Eyebrow: `RECURSOS ABIERTOS`.
+    - Title: `Luz en tu Camino (YouTube & Podcast)`.
+    - Concise Description: *«Meditaciones abiertas para encontrar calma y reconectar contigo a tu propio ritmo.»*
+    - Media Notice: Próximamente disponible en Spotify.
+    - Secondary Link: `[ Explorar meditaciones → ]` $\rightarrow$ direct link to YouTube (`https://www.youtube.com/@Elcorazóncomoportal`).
 
 ### Section 05: Acerca de Seva Surpreet Kaur (Historia y Trayectoria)
 - **Identidad del Encabezado:** Se retira "Azu" del título; se titula formalmente **`Seva Surpreet Kaur — Facilitadora de bienestar`**.
@@ -172,11 +178,11 @@ Prospective clients frequently experience the overwhelm, chronic stress, anxiety
 ## 7. Official Brand System: Typography & Color Tokens
 
 ### Typography System (Client Approved — 100% Free Open-Source via Google Fonts)
-| Role | Font Family | Source | Characteristics & License |
+| Role | Font Family | Source | Characteristics & Usage |
 | :--- | :--- | :--- | :--- |
-| **Títulos Principales (H1 / Display)** | `Playfair Display` | Google Fonts | Elegancia clásica con serifas editoriales (OFL) |
-| **Subtítulos y Encabezados (H2 / H3)** | `Cormorant Garamond` | Google Fonts | Serena, refinada, calidez meditativa (OFL) |
-| **Cuerpo de Texto y Botones (Body / UI)** | `Raleway` | Google Fonts | Sans-serif geométrica, moderna, excelente legibilidad en pantalla (OFL) |
+| **Títulos Principales & Secciones (H1 / H2)** | `Playfair Display` | Google Fonts | Elegancia clásica con serifas editoriales; slogan del Hero y títulos de sección (`#servicios`, `EXPLORA OTROS ESPACIOS`, etc.) |
+| **Títulos de Tarjetas de Servicio (H3)** | `Cormorant Garamond` | Google Fonts | Serena, refinada, calidez meditativa; títulos individuales de cada tarjeta |
+| **Cuerpo de Texto y Botones (Body / UI)** | `Raleway` | Google Fonts | Sans-serif geométrica, moderna, máxima legibilidad en párrafos, etiquetas y botones (OFL) |
 
 ### Color Tokens
 | Token Name | Hex Code | Semantic Role & Usage | Contrast vs. Canvas |

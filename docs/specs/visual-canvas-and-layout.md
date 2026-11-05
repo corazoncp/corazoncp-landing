@@ -38,10 +38,10 @@ The full desktop scroll follows seven clearly demarcated content blocks:
    - *3. Terapias Energéticas (Barras de Access®)* — Calma electromagnética, disipa carga mental y libera de creencias limitantes. Includes official registered trademark symbol (`®`) and authority link to [Access Consciousness®](https://www.accessconsciousness.com/bars).
    - *4. Procesos de Cuerpo* — Liberando dolor y ligereza; imposición somática no invasiva orientada al alivio físico y reconexión celular.
    - *5. Meditaciones Personalizadas* — Herramienta sonora asíncrona a la medida de tu estado emocional actual (situada en 5° lugar para armonía visual de la retícula).
-4. **Cierre de Servicios & Recursos Gratuitos (Puente de Transición):**
-   - Free resources bridge connecting visitors to YouTube guided meditations (*"El corazón como portal: Luz en tu camino"* at `@Elcorazóncomoportal`) and upcoming Spotify podcast.
-   - Secondary invitation to private & group Hatha Yoga sessions.
-   - Container action button linking to WhatsApp.
+4. **Caminos Complementarios (`EXPLORA OTROS ESPACIOS`):**
+   - Asymmetric 65/35 composition separating bodily practice from open community media:
+     - **Anchor Panel (65%):** Features landscape outdoor photography (`hatha-yoga.webp`), title `Clases de Hatha Yoga (Personalizadas y Grupales)`, grounding copy, and primary WhatsApp CTA `[ Conversar sobre Clases por WhatsApp → ]`.
+     - **Quiet Panel (35%):** `Porcelain Mist` container with `Sage` border, eyebrow `RECURSOS ABIERTOS`, title `Luz en tu Camino`, concise copy (*«Meditaciones abiertas para encontrar calma y reconectar contigo a tu propio ritmo.»*), upcoming podcast notice, and secondary link `[ Explorar meditaciones → ]` to YouTube.
 5. **Acerca de Seva Surpreet Kaur:**
    - Title: `Seva Surpreet Kaur — Facilitadora de bienestar`.
    - Authentic portrait with namasté hands (`IMG_1994.HEIC` $\rightarrow$ web-optimized).
@@ -95,9 +95,9 @@ The brand identity employs an earthy, grounding palette designed to convey warmt
 
 ### 4.1 Typography (Approved Stack — 100% Free Open-Source via Google Fonts)
 
-- **Títulos Principales (H1 / Display):** `Playfair Display` (Weights: 600, 700). Classic editorial elegance and strong visual anchor.
-- **Subtítulos y Encabezados (H2 / H3):** `Cormorant Garamond` (Weights: 500, 600). Warm, literary, serene presence.
-- **Cuerpo de Texto y Botones (Body / UI):** `Raleway` (Weights: 400, 500, 600). Modern, crisp geometric sans-serif ensuring effortless readability on mobile screens.
+- **Títulos Principales & Encabezados de Sección (H1 / H2):** `Playfair Display` (Weights: 600, 700). Classic editorial elegance and strong visual anchor for the Hero slogan and major section entrances (`#servicios`, `EXPLORA OTROS ESPACIOS`, `#acerca`, `#filosofia`).
+- **Títulos de Tarjetas de Servicio (H3):** `Cormorant Garamond` (Weights: 500, 600). Warm, literary, serene presence for individual service cards.
+- **Cuerpo de Texto y Botones (Body / UI):** `Raleway` (Weights: 400, 500, 600). Modern, crisp geometric sans-serif ensuring effortless readability in paragraphs, badges, metadata, and buttons across mobile screens.
 
 ---
 
