@@ -62,15 +62,17 @@ Prospective clients frequently experience the overwhelm, chronic stress, anxiety
 
 ### Section 02: Hero — Identity, Dual Modality & Immediate Action
 - **Visuals:** Warm sand/cream background, Azu's grounding portrait (`/img/azu-hero.jpg`), emerald green accent.
-- **Photo Caption:** Typography scale increased for the quote accompanying the entrance photo to ensure prominent readability.
+- **Photo Caption:** Typography scale locked to `text-sm` (14px) on mobile viewports to preserve fold integrity, and enlarged to `md:text-base lg:text-lg` on desktop for prominent readability.
 - **Eyebrow (Dual Modality):** `ACOMPAÑAMIENTO CONSCIENTE · VALLEDUPAR & ONLINE`
 - **Headline (Slogan):** *"Sal del automático. Abre tu corazón, recupera tu soberanía."*
 - **Approved Subtitle Copy Hook:**
-  > *«Acompañamiento integral para habitar tu cuerpo sin dolor, disipar el estrés, la ansiedad y el insomnio. Un espacio seguro para transitar procesos de sanación emocional profunda, recuperar tu vitalidad y liderar tu vida desde la soberanía».*
+  > *«Un respiro consciente frente al parloteo mental y la fatiga del sistema nervioso para abrir tu corazón a tu propia medicina interna.»*
 - **Primary CTA:** `[ Conversar por WhatsApp → ]` $\rightarrow$ triggers `https://wa.me/573215428972?text=Hola%20Azu,%20visité%20tu%20página%20y%20me%20gustaría%20conversar%20sobre%20tus%20sesiones.`
 - **Floating WhatsApp Anchor:** Persistent action button anchored at bottom-right with touch target $\ge 48$px.
 
 ### Section 03: Servicios & Acompañamiento (5 Discrete Cards)
+- **Approved Section Subtitle Hook:**
+  > *«Acompañamiento integral para habitar tu cuerpo sin dolor, disipar el estrés, la ansiedad y el insomnio. Un espacio seguro para transitar procesos de sanación emocional profunda, recuperar tu vitalidad y liderar tu vida desde la soberanía».*
 *Sequence Rule (Client Approved Order):*
 1. **Mentorías y Oidaterapia (Online & Presencial):**
    - *Headline / Impact:* Claridad emocional, discernimiento personal y revisión de encrucijadas de vida. Sesión principal online y presencial.
@@ -100,24 +102,23 @@ Prospective clients frequently experience the overwhelm, chronic stress, anxiety
    - *Card CTA:* `[ Solicitar Meditación ]` $\rightarrow$ pre-filled WhatsApp text.
 
 ### Section 04: Caminos Complementarios (`EXPLORA OTROS ESPACIOS`)
-- **Container Architecture:** Asymmetric 65/35 composition separating bodily practice from open community media:
+- **Container Architecture:** Single unified full-width card layout integrating physical bodily practice with open media channels:
   - **Section Heading:** `EXPLORA OTROS ESPACIOS` with subtle gold and sage accents.
-  - **Panel A (65% Anchor — Clases de Hatha Yoga):**
-    - Large landscape photo (`hatha-yoga.webp` from `IMG_9204.CR2` / `WhatsApp Image 2025-12-17...`).
+  - **Part 1 (Physical Practice Anchor — Clases de Hatha Yoga):**
+    - Large landscape photo (`hatha-yoga.webp`).
     - Title: `Clases de Hatha Yoga (Personalizadas y Grupales)`.
     - Experience: Acompañamiento físico enfocado en alineación, respiración consciente y desbloqueo somático.
     - Primary CTA: `[ Conversar sobre Clases por WhatsApp → ]` $\rightarrow$ triggers dedicated WhatsApp inquiry.
-  - **Panel B (35% Quiet Panel — Recursos Abiertos):**
-    - Background: `Porcelain Mist` (`#F4F1EA`) with subtle `Sage` border.
-    - Eyebrow: `RECURSOS ABIERTOS`.
-    - Title: `Luz en tu Camino (YouTube & Podcast)`.
-    - Concise Description: *«Meditaciones abiertas para encontrar calma y reconectar contigo a tu propio ritmo.»*
-    - Media Notice: Próximamente disponible en Spotify.
-    - Secondary Link: `[ Explorar meditaciones → ]` $\rightarrow$ direct link to YouTube (`https://www.youtube.com/@Elcorazóncomoportal`).
+  - **Part 2 (Integrated Media Callout — YouTube & Podcast):**
+    - Background: `Porcelain Mist` (`#F4F1EA`) with subtle `Sage` divider.
+    - Cadence Header: `Escucha · Respira · Reconecta`.
+    - Description: *«Explora también las meditaciones abiertas en mi canal de YouTube para encontrar calma y reconectar a tu propio ritmo.»*
+    - Notice: Próximamente disponible en Spotify.
+    - Direct CTA: `[ Ver Meditaciones en YouTube ↗ ]` with official Simple Icons YouTube vector $\rightarrow$ `https://www.youtube.com/@Elcorazóncomoportal`.
 
-### Section 05: Acerca de Seva Surpreet Kaur (Historia y Trayectoria)
-- **Identidad del Encabezado:** Se retira "Azu" del título; se titula formalmente **`Seva Surpreet Kaur — Facilitadora de bienestar`**.
-- **Fotografía:** Retrato con manos en namasté (`IMG_1994.HEIC`).
+### Section 05: Acerca de Azucena Sánchez / Seva Surpreet Kaur (Historia y Trayectoria)
+- **Identidad del Encabezado:** Se mantiene el nombre civil como titular principal **`Azucena Sánchez`** (H2). Se retira el prefijo "Azu" estrictamente de la línea de identidad espiritual, titulando **`Seva Surpreet Kaur — Facilitadora de bienestar`**.
+- **Fotografía:** Retrato junto a su mentora Nam Nidhan Kaur (`IMG_1994.HEIC` $\rightarrow$ `namaste-bio.webp`).
 - **Narrativa Oficial Aprobada:**
   > *«Tras años de trayectoria profesional como directora y productora en la televisión nacional colombiana, comencé a escuchar un profundo sentimiento de vacío y agotamiento: la señal ineludible del piloto automático.*
   > 
