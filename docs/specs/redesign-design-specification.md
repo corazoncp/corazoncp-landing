@@ -71,6 +71,14 @@ flowchart TD
     G --> H["08. Contacto, Ubicación & Footer Soberano"]
 ```
 
+### 3.3 High-Fidelity Visual Previews
+
+#### Desktop Viewport Preview (1440px Reference)
+![Desktop Viewport Preview](../assets/redesign-preview-desktop.jpg)
+
+#### Mobile Viewport Preview (390px Reference)
+![Mobile Viewport Preview](../assets/redesign-preview-mobile.jpg)
+
 #### Section 01: Header & Navigation
 - **Height:** $76\text{px}$ fixed, sticky top.
 - **Background:** `rgba(242, 235, 221, 0.92)` (`bg-ivory/92`) with `backdrop-blur-md` and bottom border `1px solid rgba(120, 148, 127, 0.25)` (`border-sage/25`).
