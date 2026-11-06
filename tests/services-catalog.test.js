@@ -58,7 +58,7 @@ test('Slice 3 Acceptance Criteria: 5-Card Catalog, Brand Tokens & Complementary 
   );
 
   await t.test(
-    'Criterion 2: Hero & Header Polish (contrast wash, verbatim subtitle with "profunda", enlarged quote)',
+    'Criterion 2: Hero & Header Polish (contrast wash, clean subtitle hook, enlarged quote text-sm/md/lg)',
     () => {
       // 1. Sticky Navigation Bar with translucent green tint wash
       const headerMatch = indexHtml.match(/<header[^>]*class="([^"]*)"/i);
@@ -73,38 +73,53 @@ test('Slice 3 Acceptance Criteria: 5-Card Catalog, Brand Tokens & Complementary 
       assert.match(headerClasses, /backdrop-blur/i, 'Header must retain backdrop-blur');
       assert.match(headerClasses, /border-b/i, 'Header must have border-b');
 
-      // 2. Hero Subtitle verbatim copy hook with "profunda"
+      // 2. Hero Subtitle single clean hook
       const heroSection = indexHtml.match(/<section id="hero"[\s\S]*?<\/section>/)?.[0];
       assert.ok(heroSection, 'Hero section must exist');
 
-      const expectedHook =
-        'Acompañamiento integral para habitar tu cuerpo sin dolor, disipar el estrés, la ansiedad y el insomnio. Un espacio seguro para transitar procesos de sanación emocional profunda, recuperar tu vitalidad y liderar tu vida desde la soberanía.';
+      const expectedHeroHook =
+        'Un respiro consciente frente al parloteo mental y la fatiga del sistema nervioso para abrir tu corazón a tu propia medicina interna.';
       assert.ok(
-        heroSection.includes(expectedHook),
-        'Hero must include approved verbatim copy hook containing "sanación emocional profunda"',
+        heroSection.includes(expectedHeroHook),
+        'Hero must include approved single clean subtitle hook',
+      );
+      assert.ok(
+        !heroSection.includes('Acompañamiento integral para habitar tu cuerpo sin dolor'),
+        'Hero must not contain dense multi-service copy (moved to Section 03)',
       );
 
-      // 3. Quote Caption scale (desktop enlarged md:text-base/lg:text-lg, mobile text-xs/sm:text-sm)
+      // 3. Quote Caption scale (desktop enlarged md:text-base/lg:text-lg, mobile text-sm without text-xs)
       const quoteBlock = heroSection.match(/<div[^>]*rounded-2xl[^>]*>[\s\S]*?<\/div>/i)?.[0];
       assert.ok(quoteBlock, 'Quote callout block must exist near portrait in Hero');
       assert.match(
         quoteBlock,
-        /(md:text-base|lg:text-lg)/,
-        'Quote caption must have desktop enlargement typography (md:text-base or lg:text-lg)',
+        /text-sm\s+md:text-base\s+lg:text-lg/,
+        'Quote caption must scale from text-sm on mobile to md:text-base and lg:text-lg on desktop',
       );
-      assert.match(
-        quoteBlock,
-        /(text-xs|text-sm)/,
-        'Quote caption must retain compact mobile typography (text-xs or text-sm)',
+      assert.ok(
+        !quoteBlock.includes('text-xs'),
+        'Quote caption must not contain text-xs to prevent mobile readability regression',
       );
     },
   );
 
   await t.test(
-    'Criterion 3: 5-Card Outcome-First Services Grid with balanced 3+2 architecture',
+    'Criterion 3: 5-Card Outcome-First Services Grid with balanced 3+2 architecture & reconciled subtitle',
     () => {
       const serviciosSection = indexHtml.match(/<section id="servicios"[\s\S]*?<\/section>/)?.[0];
       assert.ok(serviciosSection, 'Section #servicios must exist');
+
+      // Subtitle with sanación emocional profunda & zero Respuestas concretas
+      const expectedServicesSubtitle =
+        'Acompañamiento integral para habitar tu cuerpo sin dolor, disipar el estrés, la ansiedad y el insomnio. Un espacio seguro para transitar procesos de sanación emocional profunda, recuperar tu vitalidad y liderar tu vida desde la soberanía.';
+      assert.ok(
+        serviciosSection.includes(expectedServicesSubtitle),
+        'Section #servicios must contain approved subtitle with "sanación emocional profunda"',
+      );
+      assert.ok(
+        !indexHtml.includes('Respuestas concretas para el estrés crónico'),
+        'Document must have zero occurrences of rejected phrase "Respuestas concretas para el estrés crónico"',
+      );
 
       // 5 approved image assets in order
       const expectedAssets = [
@@ -230,55 +245,91 @@ test('Slice 3 Acceptance Criteria: 5-Card Catalog, Brand Tokens & Complementary 
   });
 
   await t.test(
-    'Criterion 6: Asymmetric Complementary Paths (Section 04: EXPLORA OTROS ESPACIOS)',
+    'Criterion 6: Reconciled Caminos Complementarios (Section 04: single container & media strip)',
     () => {
-      // Find section with EXPLORA OTROS ESPACIOS
+      const otrosEspaciosSection = indexHtml.match(
+        /<section id="otros-espacios"[\s\S]*?<\/section>/,
+      )?.[0];
+      assert.ok(otrosEspaciosSection, 'Section #otros-espacios must exist');
+
+      // Heading Explora Otros Espacios
       assert.match(
-        indexHtml,
-        /EXPLORA OTROS ESPACIOS/,
-        'Document must have section with heading EXPLORA OTROS ESPACIOS',
+        otrosEspaciosSection,
+        /Explora Otros Espacios/i,
+        'Section must have heading Explora Otros Espacios',
       );
 
-      // Check Panel A: Hatha Yoga anchor
+      // Single full-width container & absence of legacy split grid classes
+      assert.ok(
+        otrosEspaciosSection.includes(
+          'overflow-hidden rounded-3xl border border-sage/30 bg-ivory shadow-xl',
+        ),
+        'Section 04 must use single full-width container',
+      );
+      assert.ok(
+        !otrosEspaciosSection.includes('lg:col-span-8'),
+        'Section 04 must not contain legacy split grid class lg:col-span-8',
+      );
+      assert.ok(
+        !otrosEspaciosSection.includes('lg:col-span-4'),
+        'Section 04 must not contain legacy split grid class lg:col-span-4',
+      );
+
+      // Part 1: Hatha Yoga anchor
       assert.match(
-        indexHtml,
+        otrosEspaciosSection,
         /hatha-yoga\.webp/,
         'Complementary paths must include hatha-yoga.webp',
       );
       assert.match(
-        indexHtml,
+        otrosEspaciosSection,
         /Clases de Hatha Yoga \(Personalizadas y Grupales\)/,
         'Must include title: Clases de Hatha Yoga (Personalizadas y Grupales)',
       );
       assert.match(
-        indexHtml,
+        otrosEspaciosSection,
         /alineación.*respiración consciente.*desbloqueo somático/s,
         'Hatha Yoga copy must mention alignment, conscious breathing, and somatic release',
       );
       assert.match(
-        indexHtml,
+        otrosEspaciosSection,
         /Conversar sobre Clases por WhatsApp/,
         'Hatha Yoga CTA must have text "Conversar sobre Clases por WhatsApp"',
       );
 
-      // Check Panel B: Quiet panel Recursos Abiertos
-      assert.match(indexHtml, /bg-porcelain-mist/, 'Panel B must use bg-porcelain-mist styling');
-      assert.match(indexHtml, /RECURSOS ABIERTOS/, 'Panel B must have eyebrow RECURSOS ABIERTOS');
+      // Part 2: Integrated media strip
       assert.match(
-        indexHtml,
-        /Luz en tu Camino \(YouTube & Podcast\)/,
-        'Panel B must have title Luz en tu Camino (YouTube & Podcast)',
+        otrosEspaciosSection,
+        /bg-porcelain-mist/,
+        'Media strip must use bg-porcelain-mist styling',
       );
       assert.match(
-        indexHtml,
-        /Meditaciones abiertas para encontrar calma y reconectar contigo a tu propio ritmo\./,
-        'Panel B must contain approved concise copy',
+        otrosEspaciosSection,
+        /Escucha · Respira · Reconecta/,
+        'Media strip must contain cadence header "Escucha · Respira · Reconecta"',
       );
-      assert.match(indexHtml, /Spotify/i, 'Panel B must mention upcoming Spotify availability');
       assert.match(
-        indexHtml,
+        otrosEspaciosSection,
+        /meditaciones abiertas en mi canal de YouTube/i,
+        'Media strip must invite to YouTube open meditations',
+      );
+      assert.match(
+        otrosEspaciosSection,
+        /Próximamente en Spotify/i,
+        'Media strip must mention upcoming Spotify availability',
+      );
+      assert.match(
+        otrosEspaciosSection,
         /https:\/\/www\.youtube\.com\/@Elcoraz(?:%C3%B3|[oó])ncomoportal/i,
-        'Panel B must link to official YouTube channel',
+        'Media strip must link to official YouTube channel',
+      );
+
+      // Simple Icons YouTube SVG vector
+      const youtubeSvgPath =
+        'M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z';
+      assert.ok(
+        otrosEspaciosSection.includes(youtubeSvgPath),
+        'Media strip must render the official Simple Icons YouTube SVG path vector',
       );
     },
   );
@@ -315,9 +366,10 @@ test('Slice 3 Acceptance Criteria: 5-Card Catalog, Brand Tokens & Complementary 
       const distHtmlPath = path.resolve('dist/index.html');
       assert.ok(fs.existsSync(distHtmlPath), 'dist/index.html must exist from build');
       const distHtml = fs.readFileSync(distHtmlPath, 'utf-8');
-      assert.ok(
-        distHtml.includes('EXPLORA OTROS ESPACIOS'),
-        'Built HTML must contain EXPLORA OTROS ESPACIOS',
+      assert.match(
+        distHtml,
+        /Explora Otros Espacios/i,
+        'Built HTML must contain Explora Otros Espacios',
       );
       assert.ok(
         distHtml.includes('Mentorías y Oidaterapia'),
@@ -325,4 +377,70 @@ test('Slice 3 Acceptance Criteria: 5-Card Catalog, Brand Tokens & Complementary 
       );
     },
   );
+
+  await t.test('Criterion 9: Bio & Philosophy Reconciled Integrity', () => {
+    // Section 05: Acerca de
+    const acercaSection = indexHtml.match(/<section id="acerca"[\s\S]*?<\/section>/)?.[0];
+    assert.ok(acercaSection, 'Section #acerca must exist');
+
+    assert.ok(
+      acercaSection.includes('src="/img/namaste-bio.webp"'),
+      'Section #acerca must use namaste-bio.webp',
+    );
+    assert.match(
+      acercaSection,
+      /alt="Azucena Sánchez \(Seva Surpreet Kaur\) junto a su mentora Nam Nidhan Kaur"/,
+      'Section #acerca must include descriptive alt text with mentor Nam Nidhan Kaur',
+    );
+    assert.match(
+      acercaSection,
+      /<h2[^>]*>\s*Azucena Sánchez\s*<\/h2>/,
+      'Section #acerca must display civil name H2: Azucena Sánchez',
+    );
+    assert.match(
+      acercaSection,
+      /Seva Surpreet Kaur — Facilitadora de bienestar/,
+      'Section #acerca must display spiritual name without "Azu" prefix',
+    );
+    assert.ok(
+      !acercaSection.includes('Azu Seva'),
+      'Section #acerca must not include rejected hybrid name "Azu Seva"',
+    );
+
+    // Bio paragraphs verbatim keywords
+    assert.match(
+      acercaSection,
+      /directora y productora en la televisión nacional colombiana.*piloto automático/s,
+      'Bio paragraph 1 must describe Colombian TV trajectory and autopilot',
+    );
+    assert.match(
+      acercaSection,
+      /Kundalini KRI.*Acceso a la consciencia.*Oidaterapia/s,
+      'Bio paragraph 2 must include Kundalini KRI and Acceso a la consciencia',
+    );
+    assert.match(
+      acercaSection,
+      /despiertes tu propia brújula interna.*contribuir al mundo que habitamos/s,
+      'Bio paragraph 3 must include inner compass and closing clause on contributing to the world',
+    );
+
+    // Section 06: Filosofía
+    const filosofiaSection = indexHtml.match(/<section id="filosofia"[\s\S]*?<\/section>/)?.[0];
+    assert.ok(filosofiaSection, 'Section #filosofia must exist');
+
+    assert.match(
+      filosofiaSection,
+      /sabiduría trascendental del corazón/,
+      'Filosofía quote must contain "sabiduría trascendental del corazón"',
+    );
+    assert.match(
+      filosofiaSection,
+      /El Corazón como Portal · Conecta con tu guía interno/,
+      'Filosofía eyebrow must contain "El Corazón como Portal · Conecta con tu guía interno"',
+    );
+    assert.ok(
+      !filosofiaSection.includes('Anahata Chakra'),
+      'Filosofía eyebrow must not contain "Anahata Chakra"',
+    );
+  });
 });
