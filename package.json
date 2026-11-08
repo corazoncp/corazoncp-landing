@@ -7,6 +7,7 @@
     "dev": "vp dev",
     "build": "vp build",
     "preview": "vp preview",
+    "pretest": "vp build",
     "test": "node --test tests/*.test.js",
     "lint": "biome check .",
     "lint:fix": "biome check --write .",
