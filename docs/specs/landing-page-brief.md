@@ -139,7 +139,7 @@ Prospective clients frequently experience the overwhelm, chronic stress, anxiety
   - **Instagram:** `https://www.instagram.com/elcorazoncomoportal` (`@elcorazoncomoportal`)
   - **YouTube:** `https://www.youtube.com/@Elcorazóncomoportal` (`@Elcorazóncomoportal`)
   - **X (Twitter):** `https://x.com/Elcorazoncp` (`@Elcorazoncp`)
-  - **Dirección & Ubicación:** Calle 7 #19B-88 Apto 102, Valledupar, Colombia, 200005 (enlace a Google Maps `https://maps.app.goo.gl/FbaV2eRCWbsK8Hnt5` con `target="_blank" rel="noopener noreferrer"`).
+  - **Dirección & Ubicación:** Calle 7 #19B-88 Apto 102, Valledupar, Colombia, 200001 (enlace a Google Maps `https://maps.app.goo.gl/FbaV2eRCWbsK8Hnt5` con `target="_blank" rel="noopener noreferrer"`).
 - **Floating WhatsApp Anchor:** Persistent action button anchored at bottom-right with touch target $\ge 48$px.
 
 ---
@@ -170,7 +170,7 @@ Prospective clients frequently experience the overwhelm, chronic stress, anxiety
    - `@type: LocalBusiness / HealthAndBeautyBusiness`
    - Name: *El Corazón como Portal*
    - Founder: *Seva Surpreet Kaur*
-   - Address: *Calle 7 #19B-88 Apto 102, Valledupar, Colombia, 200005*
+   - Address: *Calle 7 #19B-88 Apto 102, Valledupar, Colombia, 200001*
    - GeoCoordinates / AreaServed: *Valledupar, Colombia, and Global Virtual Sessions*
    - Offers: *Mentorías y Oidaterapia, Clases de Kundalini Yoga, Barras de Access®, Procesos de Cuerpo, Meditaciones Personalizadas*
 
